@@ -1,0 +1,34 @@
+Loaded Resident Evil 5 extensions.
+RE5 tex format selected.
+Little endian ARC detected.
+Wrote D:\SteamLibrary\steamapps\common\Resident Evil 5\nativePC_MT\Image\Archive\ViewerResource\id\jpn\menu\tm100_360_NOMIP_BM.dds
+Wrote D:\SteamLibrary\steamapps\common\Resident Evil 5\nativePC_MT\Image\Archive\ViewerResource\id\jpn\menu\tm100_360_NOMIP_BM.txt
+Wrote D:\SteamLibrary\steamapps\common\Resident Evil 5\nativePC_MT\Image\Archive\ViewerResource\id\jpn\menu\tm100_360_NOMIP_BM.tex (uncompressed)
+Wrote D:\SteamLibrary\steamapps\common\Resident Evil 5\nativePC_MT\Image\Archive\ViewerResource\id\jpn\menu\tm121_360_NOMIP_BM.dds
+Wrote D:\SteamLibrary\steamapps\common\Resident Evil 5\nativePC_MT\Image\Archive\ViewerResource\id\jpn\menu\tm121_360_NOMIP_BM.txt
+Wrote D:\SteamLibrary\steamapps\common\Resident Evil 5\nativePC_MT\Image\Archive\ViewerResource\id\jpn\menu\tm121_360_NOMIP_BM.tex (uncompressed)
+Wrote D:\SteamLibrary\steamapps\common\Resident Evil 5\nativePC_MT\Image\Archive\ViewerResource\id\jpn\menu\tm120_360_NOMIP_BM.dds
+Wrote D:\SteamLibrary\steamapps\common\Resident Evil 5\nativePC_MT\Image\Archive\ViewerResource\id\jpn\menu\tm120_360_NOMIP_BM.txt
+Wrote D:\SteamLibrary\steamapps\common\Resident Evil 5\nativePC_MT\Image\Archive\ViewerResource\id\jpn\menu\tm120_360_NOMIP_BM.tex (uncompressed)
+Wrote D:\SteamLibrary\steamapps\common\Resident Evil 5\nativePC_MT\Image\Archive\ViewerResource\id\jpn\menu\tm111_360_NOMIP_BM.dds
+Wrote D:\SteamLibrary\steamapps\common\Resident Evil 5\nativePC_MT\Image\Archive\ViewerResource\id\jpn\menu\tm111_360_NOMIP_BM.txt
+Wrote D:\SteamLibrary\steamapps\common\Resident Evil 5\nativePC_MT\Image\Archive\ViewerResource\id\jpn\menu\tm111_360_NOMIP_BM.tex (uncompressed)
+Wrote D:\SteamLibrary\steamapps\common\Resident Evil 5\nativePC_MT\Image\Archive\ViewerResource\id\jpn\menu\tm123_360_NOMIP_BM.dds
+Wrote D:\SteamLibrary\steamapps\common\Resident Evil 5\nativePC_MT\Image\Archive\ViewerResource\id\jpn\menu\tm123_360_NOMIP_BM.txt
+Wrote D:\SteamLibrary\steamapps\common\Resident Evil 5\nativePC_MT\Image\Archive\ViewerResource\id\jpn\menu\tm123_360_NOMIP_BM.tex (uncompressed)
+Wrote D:\SteamLibrary\steamapps\common\Resident Evil 5\nativePC_MT\Image\Archive\ViewerResource\id\jpn\menu\tm114_360_NOMIP_BM.dds
+Wrote D:\SteamLibrary\steamapps\common\Resident Evil 5\nativePC_MT\Image\Archive\ViewerResource\id\jpn\menu\tm114_360_NOMIP_BM.txt
+Wrote D:\SteamLibrary\steamapps\common\Resident Evil 5\nativePC_MT\Image\Archive\ViewerResource\id\jpn\menu\tm114_360_NOMIP_BM.tex (uncompressed)
+Wrote D:\SteamLibrary\steamapps\common\Resident Evil 5\nativePC_MT\Image\Archive\ViewerResource\id\jpn\menu\tm122_360_NOMIP_BM.dds
+Wrote D:\SteamLibrary\steamapps\common\Resident Evil 5\nativePC_MT\Image\Archive\ViewerResource\id\jpn\menu\tm122_360_NOMIP_BM.txt
+Wrote D:\SteamLibrary\steamapps\common\Resident Evil 5\nativePC_MT\Image\Archive\ViewerResource\id\jpn\menu\tm122_360_NOMIP_BM.tex (uncompressed)
+Wrote D:\SteamLibrary\steamapps\common\Resident Evil 5\nativePC_MT\Image\Archive\ViewerResource\id\jpn\menu\tm112_360_NOMIP_BM.dds
+Wrote D:\SteamLibrary\steamapps\common\Resident Evil 5\nativePC_MT\Image\Archive\ViewerResource\id\jpn\menu\tm112_360_NOMIP_BM.txt
+Wrote D:\SteamLibrary\steamapps\common\Resident Evil 5\nativePC_MT\Image\Archive\ViewerResource\id\jpn\menu\tm112_360_NOMIP_BM.tex (uncompressed)
+Wrote D:\SteamLibrary\steamapps\common\Resident Evil 5\nativePC_MT\Image\Archive\ViewerResource\sound\bgm\st_figure.stq (uncompressed)
+Wrote D:\SteamLibrary\steamapps\common\Resident Evil 5\nativePC_MT\Image\Archive\ViewerResource\id\jpn\menu\top18.lsp (uncompressed)
+Wrote D:\SteamLibrary\steamapps\common\Resident Evil 5\nativePC_MT\Image\Archive\ViewerResource\id\jpn\menu\top19.lsp (uncompressed)
+Wrote D:\SteamLibrary\steamapps\common\Resident Evil 5\nativePC_MT\Image\Archive\ViewerResource\id\jpn\menu\top16.lsp (uncompressed)
+Wrote D:\SteamLibrary\steamapps\common\Resident Evil 5\nativePC_MT\Image\Archive\ViewerResource\id\jpn\menu\top17.lsp (uncompressed)
+Process complete.
+Extracted 13 files. 13 were compressed and 0 uncompressed.

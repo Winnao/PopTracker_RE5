@@ -1,0 +1,91 @@
+// maps.jsonc
+[
+  {
+    "name": "Chapter 1-1",
+    "img": "images/maps/Chap_1_1.png"
+  },
+  {
+    "name": "Chapter 1-2",
+    "img": "images/maps/Chap_1_2.png"
+  },
+  {
+    "name": "Chapter 2-1",
+    "img": "images/maps/Chap_2_1.png"
+  },
+  {
+    "name": "Chapter 2-2",
+    "img": "images/maps/Chap_2_2.png"
+  },
+  {
+    "name": "Chapter 3-1",
+    "img": "images/maps/Chap_3_1.png"
+  },
+  {
+    "name": "Chapter 3-2",
+    "img": "images/maps/Chap_3_2.png"
+  },
+  {
+    "name": "Chapter 3-3",
+    "img": "images/maps/Chap_3_3.png"
+  },
+  {
+    "name": "Chapter 4-1",
+    "img": "images/maps/Chap_4_1.png"
+  },
+  {
+    "name": "Chapter 4-2",
+    "img": "images/maps/Chap_4_2.png"
+  },
+  {
+    "name": "Chapter 5-1",
+    "img": "images/maps/Chap_5_1.png"
+  },
+  {
+    "name": "Chapter 5-2",
+    "img": "images/maps/Chap_5_2.png"
+  },
+  {
+    "name": "Chapter 5-3",
+    "img": "images/maps/Chap_5_3.png"
+  },
+  {
+    "name": "Chapter 6-1",
+    "img": "images/maps/Chap_6_1.png"
+  },
+  {
+    "name": "Chapter 6-2",
+    "img": "images/maps/Chap_6_2.png"
+  },
+  {
+    "name": "Chapter 6-3",
+    "img": "images/maps/Chap_6_3.png"
+  },
+
+  // Lost in Nightmares parts
+  {
+    "name": "Lost in Nightmares part 1",
+    "img": "images/maps/Lost_In_Nightmares_1.png"
+  },
+  {
+    "name": "Lost in Nightmares part 2",
+    "img": "images/maps/Lost_In_Nightmares_2.png"
+  },
+  {
+    "name": "Lost in Nightmares part 3",
+    "img": "images/maps/Lost_In_Nightmares_3.png"
+  },
+  {
+    "name": "Lost in Nightmares part 4",
+    "img": "images/maps/Lost_In_Nightmares_4.png"
+  },
+
+  // Desperate Escape parts
+  {
+    "name": "Desperate Escape part 1",
+    "img": "images/maps/Desperate_Escape_1.png"
+  },
+  {
+    "name": "Desperate Escape part 2",
+    "img": "images/maps/Desperate_Escape_2.png"
+  }
+]

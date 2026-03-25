@@ -1,0 +1,17 @@
+{
+    "emblem": {
+        "yaml_option": ["Emblemsanity_Enabled"]
+    },
+    "treasure": {
+        "yaml_option": ["Treasuresanity_Enabled"]
+    },
+    "infinite_ammo": {
+        "yaml_option": ["Infinite_Ammo_Unlocks_Enabled"]
+    },
+    "shop_purchase": {
+        "yaml_option": ["Shopsanity_Enabled"]
+    },
+    "expert_logic": {
+        "yaml_option": ["Expert_Logic"]
+    }
+}

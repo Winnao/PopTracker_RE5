@@ -1,0 +1,249 @@
+{
+    "chapters": {
+        "type": "tabbed",
+        "tab_style": {
+            "background": "#0c0c0c",
+            "active_background": "#1a1a1a",
+            "text_color": "#bdbdbd",
+            "active_text_color": "#ffffff"
+        },
+        "tabs": [
+            {
+                "title": "Chapter 1",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "1-1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Chapter 1-1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "1-2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Chapter 1-2"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Chapter 2",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "2-1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Chapter 2-1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "2-2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Chapter 2-2"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "2-3",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Chapter 2-3"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Chapter 3",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "3-1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Chapter 3-1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "3-2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Chapter 3-2"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "3-3",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Chapter 3-3"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Chapter 4",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "4-1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Chapter 4-1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "4-2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Chapter 4-2"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Chapter 5",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "5-1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Chapter 5-1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "5-2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Chapter 5-2"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "5-3",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Chapter 5-3"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Chapter 6",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "6-1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Chapter 6-1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "6-2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Chapter 6-2"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "6-3",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Chapter 6-3"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Lost in Nightmares",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Lost in Nightmares part 1",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Lost in Nightmares part 1"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Lost in Nightmares part 2",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Lost in Nightmares part 2"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Lost in Nightmares part 3",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Lost in Nightmares part 3"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Lost in Nightmares part 4",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Lost in Nightmares part 4"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
