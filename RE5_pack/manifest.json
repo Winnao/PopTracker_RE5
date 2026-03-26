@@ -1,12 +1,10 @@
 {
   "name": "Resident Evil 5 Archipelago",
   "game_name": "Manual_ResidentEvil5_Garbo",
-  "package_version": "0.0.1",
-  "package_uid": "template_pack",
+  "package_version": "0.1.0",
+  "package_uid": "re5_archipelago_manual",
   "author": "Naowin",
   "min_poptracker_version": "0.32.1",
-  // put the version you tested against here!
-  //"target_poptracker_version": "0.32.1",
   "variants": {
     "standard": {
       "display_name": "Resident Evil 5 (Archipelago)",
