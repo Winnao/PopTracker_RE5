@@ -1,8 +1,6 @@
 {
-  // sets the tracker layout
   "tracker_default": {
     "type": "container",
-    "orientation": "vertical",
     "background": "#20201f",
     "content": {
       "type": "dock",
@@ -19,13 +17,16 @@
             { "type": "group", "header": "Weapons",         "dock": "top", "content": { "type": "layout", "key": "weapons_grid" } },
             { "type": "group", "header": "Weapon Upgrades", "dock": "top", "content": { "type": "layout", "key": "weapons_upgrades_grid" } }
           ]
+        },
+        {
+          "type": "layout",
+          "key": "chapters"
         }
       ]
     }
   },
   "tracker_horizontal": {
     "type": "container",
-    "orientation": "vertical",
     "background": "#20201f",
     "content": {
       "type": "dock",
@@ -42,6 +43,10 @@
             { "type": "group", "header": "Weapons",         "dock": "top", "content": { "type": "layout", "key": "weapons_grid" } },
             { "type": "group", "header": "Weapon Upgrades", "dock": "top", "content": { "type": "layout", "key": "weapons_upgrades_grid" } }
           ]
+        },
+        {
+          "type": "layout",
+          "key": "chapters"
         }
       ]
     }
