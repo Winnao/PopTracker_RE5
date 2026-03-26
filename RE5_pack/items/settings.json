@@ -1,8 +1,4 @@
 [
-  // =========================
-  // OPTIONAL MODE TOGGLES
-  // Disabled by default — enable to show optional location checks
-  // =========================
   {
     "name": "Emblemsanity",
     "type": "toggle",
@@ -22,6 +18,13 @@
     "type": "toggle",
     "codes": "shopsanity",
     "img": "images/items/options/shopsanity.png",
+    "initial_active_state": false
+  },
+  {
+    "name": "Expert Logic",
+    "type": "toggle",
+    "codes": "expert_logic",
+    "img": "images/items/options/expert_logic.png",
     "initial_active_state": false
   }
 ]
