@@ -119,106 +119,106 @@
     "name": "Old Building Key",
     "type": "toggle",
     "codes": "old_building_key",
-    "img": "images/items/key_items/old_building_key.jpg"
+    "img": "images/items/key_items/old_building_key.png"
   },
   {
     "name": "Furnace Key",
     "type": "toggle",
     "codes": "furnace_key",
-    "img": "images/items/key_items/furnace_key.jpg"
+    "img": "images/items/key_items/furnace_key.png"
   },
   {
     "name": "Port Key",
     "type": "toggle",
     "codes": "port_key",
-    "img": "images/items/key_items/port_key.jpg"
+    "img": "images/items/key_items/port_key.png"
   },
   {
     "name": "Guard's Key",
     "type": "toggle",
     "codes": "guard_s_key",
-    "img": "images/items/key_items/guard_s_key.jpg"
+    "img": "images/items/key_items/guard_s_key.png"
   },
 
   {
     "name": "Beast Slate",
     "type": "toggle",
     "codes": "beast_slate",
-    "img": "images/items/key_items/beast_slate.jpg"
+    "img": "images/items/key_items/beast_slate.png"
   },
   {
     "name": "Shaman Slate",
     "type": "toggle",
     "codes": "shaman_slate",
-    "img": "images/items/key_items/shaman_slate.jpg"
+    "img": "images/items/key_items/shaman_slate.png"
   },
   {
     "name": "Raptor Slate",
     "type": "toggle",
     "codes": "raptor_slate",
-    "img": "images/items/key_items/raptor_slate.jpg"
+    "img": "images/items/key_items/raptor_slate.png"
   },
   {
     "name": "Warrior Slate",
     "type": "toggle",
     "codes": "warrior_slate",
-    "img": "images/items/key_items/warrior_slate.jpg"
+    "img": "images/items/key_items/warrior_slate.png"
   },
 
   {
     "name": "Sky Emblem",
     "type": "toggle",
     "codes": "sky_emblem",
-    "img": "images/items/key_items/sky_emblem.jpg"
+    "img": "images/items/key_items/sky_emblem.png"
   },
   {
     "name": "Earth Emblem",
     "type": "toggle",
     "codes": "earth_emblem",
-    "img": "images/items/key_items/earth_emblem.jpg"
+    "img": "images/items/key_items/earth_emblem.png"
   },
   {
     "name": "Sea Emblem",
     "type": "toggle",
     "codes": "sea_emblem",
-    "img": "images/items/key_items/sea_emblem.jpg"
+    "img": "images/items/key_items/sea_emblem.png"
   },
 
   {
     "name": "Crane Keycard",
     "type": "toggle",
     "codes": "crane_keycard",
-    "img": "images/items/key_items/crane_keycard.jpg"
+    "img": "images/items/key_items/crane_keycard.png"
   },
   {
     "name": "Tanker Keycard A",
     "type": "toggle",
     "codes": "tanker_keycard_a",
-    "img": "images/items/key_items/tanker_keycard_a.jpg"
+    "img": "images/items/key_items/tanker_keycard_a.png"
   },
   {
     "name": "Tanker Keycard B",
     "type": "toggle",
     "codes": "tanker_keycard_b",
-    "img": "images/items/key_items/tanker_keycard_b.jpg"
+    "img": "images/items/key_items/tanker_keycard_b.png"
   },
   {
     "name": "Bridge Keycard",
     "type": "toggle",
     "codes": "bridge_keycard",
-    "img": "images/items/key_items/bridge_keycard.jpg"
+    "img": "images/items/key_items/bridge_keycard.png"
   },
   {
     "name": "Hangar Keycard A",
     "type": "toggle",
     "codes": "hangar_keycard_a",
-    "img": "images/items/key_items/hangar_keycard_a.jpg"
+    "img": "images/items/key_items/hangar_keycard_a.png"
   },
   {
     "name": "Hangar Keycard B",
     "type": "toggle",
     "codes": "hangar_keycard_b",
-    "img": "images/items/key_items/hangar_keycard_b.jpg"
+    "img": "images/items/key_items/hangar_keycard_b.png"
   },
 
   // =========================
