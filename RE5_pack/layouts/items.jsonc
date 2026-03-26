@@ -211,4 +211,20 @@
             ]*/
         ]
     }
+,
+    "settings_grid": {
+        "type": "itemgrid",
+        "item_margin": "3, 3",
+        "item_size": "48, 48",
+        "h_alignment": "left",
+        "rows": [
+            [
+                "emblemsanity",
+                "treasuresanity",
+                "shopsanity",
+                "expert_logic"
+            ]
+        ]
+    }
+
 }
