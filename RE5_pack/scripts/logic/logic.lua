@@ -2,8 +2,6 @@
 
 ENABLE_DEBUG_LOG = true
 
--- Weapon category checks
-
 LIGHT_WEAPONS = {"beretta_m92f","vz61","ak_74","h_k_mp5","sig_556","m93r","h_k_p8"}
 HEAVY_WEAPONS = {"ithaca_37","benelli_m3","jailbreaker","s_w_m29","l_hawk","m40_gl","s_w_m500","hydra","minigun","longbow"}
 RIFLES        = {"s75","svd_dragunov","h_k_psg_1"}
@@ -42,6 +40,11 @@ function has_n_heavyweapon(n)
     return count_weapons(HEAVY_WEAPONS) >= tonumber(n) and 1 or 0
 end
 
+-- Explosive: M40 GL is the only tracked launcher weapon
+function has_explosive()
+    return Tracker:ProviderCountForCode("m40_gl") > 0 and 1 or 0
+end
+
 -- Optional mode checks
 
 function emblemsanity()
@@ -54,6 +57,10 @@ end
 
 function shopsanity()
     return Tracker:ProviderCountForCode("shopsanity") > 0 and 1 or 0
+end
+
+function expert_logic()
+    return Tracker:ProviderCountForCode("expert_logic") > 0 and 1 or 0
 end
 
 -- Progressive treasure helper
