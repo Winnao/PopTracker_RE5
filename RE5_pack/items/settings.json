@@ -1,0 +1,27 @@
+[
+  // =========================
+  // OPTIONAL MODE TOGGLES
+  // Disabled by default — enable to show optional location checks
+  // =========================
+  {
+    "name": "Emblemsanity",
+    "type": "toggle",
+    "codes": "emblemsanity",
+    "img": "images/items/options/emblemsanity.png",
+    "initial_active_state": false
+  },
+  {
+    "name": "Treasuresanity",
+    "type": "toggle",
+    "codes": "treasuresanity",
+    "img": "images/items/options/treasuresanity.png",
+    "initial_active_state": false
+  },
+  {
+    "name": "Shopsanity",
+    "type": "toggle",
+    "codes": "shopsanity",
+    "img": "images/items/options/shopsanity.png",
+    "initial_active_state": false
+  }
+]

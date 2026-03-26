@@ -6,7 +6,7 @@ local variant = Tracker.ActiveVariantUID
 -- check variant info
 IS_ITEMS_ONLY = variant:find("itemsonly")
 
-print("-- Example Tracker --")
+print("-- RE5 Archipelago Tracker --")
 print("Loaded variant: ", variant)
 if ENABLE_DEBUG_LOG then
     print("Debug logging is enabled!")
@@ -25,8 +25,9 @@ ScriptHost:LoadScript("scripts/custom_items/progressiveTogglePlusWrapper.lua")
 
 -- Items
 Tracker:AddItems("items/items.jsonc")
+Tracker:AddItems("items/settings.json")
 
-if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
+if not IS_ITEMS_ONLY then
     -- Maps
     Tracker:AddMaps("maps/maps.jsonc")
     -- Locations
