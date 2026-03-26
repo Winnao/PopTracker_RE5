@@ -1,36 +1,16 @@
 {
-  // sets layouts for shadred items grids
-  // bigger example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/layouts/items.json
+  // sets layouts for shared items grids
     "chapters_grid": {
         "type": "itemgrid",
         "item_margin": "3, 3",
         "item_size": "48, 48",
         "h_alignment": "left",
         "rows": [
-            [
-                "chapter_1_1",
-                "chapter_1_2",
-                "chapter_2_1",
-                "chapter_2_2",
-                "chapter_2_3",
-                "chapter_3_1",
-                "chapter_3_2",
-                "chapter_3_3"
-            ],
-            [
-                "chapter_4_1",
-                "chapter_4_2",
-                "chapter_5_1",
-                "chapter_5_2",
-                "chapter_5_3",
-                "chapter_6_1",
-                "chapter_6_2",
-                "chapter_6_3"
-            ],
-            [
-                "desperate_escape",
-                "lost_in_nightmares"
-            ]
+            [ "chapter_1_1", "chapter_1_2", "chapter_2_1", "chapter_2_2",
+              "chapter_2_3", "chapter_3_1", "chapter_3_2", "chapter_3_3" ],
+            [ "chapter_4_1", "chapter_4_2", "chapter_5_1", "chapter_5_2",
+              "chapter_5_3", "chapter_6_1", "chapter_6_2", "chapter_6_3" ],
+            [ "desperate_escape", "lost_in_nightmares" ]
         ]
     },
     "key_items_grid": {
@@ -39,30 +19,12 @@
         "item_size": "48, 48",
         "h_alignment": "left",
         "rows": [
-            [
-                "old_building_key",
-                "furnace_key",
-                "port_key",
-                "guard_s_key",
-                "beast_slate",
-                "shaman_slate",
-                "raptor_slate",
-                "warrior_slate"
-            ],
-            [
-                "sky_emblem",
-                "earth_emblem",
-                "sea_emblem",
-                "crane_keycard",
-                "tanker_keycard_a",
-                "tanker_keycard_b",
-                "bridge_keycard",
-                "hangar_keycard_a",
-                "hangar_keycard_b"
-            ],
-            [
-                "progressive_treasure"
-            ]
+            [ "old_building_key", "furnace_key", "port_key", "guard_s_key",
+              "beast_slate", "shaman_slate", "raptor_slate", "warrior_slate" ],
+            [ "sky_emblem", "earth_emblem", "sea_emblem",
+              "crane_keycard", "tanker_keycard_a", "tanker_keycard_b",
+              "bridge_keycard", "hangar_keycard_a", "hangar_keycard_b" ],
+            [ "progressive_treasure" ]
         ]
     },
     "weapons_grid": {
@@ -71,35 +33,12 @@
         "item_size": "48, 48",
         "h_alignment": "left",
         "rows": [
-            //Light weapon
-            [
-                "beretta_m92f",
-                "vz61",
-                "ak_74",
-                "h_k_mp5",
-                "sig_556",
-                "m93r",
-                "h_k_p8"
-            ],
-            //Heavy weapon
-            [ 
-                "ithaca_37",
-                "benelli_m3",
-                "jailbreaker",
-                "s_w_m29",
-                "l_hawk",
-                "m40_gl", 
-                "s_w_m500",
-                "hydra",
-                "minigun",
-                "longbow"
-            ],
-            //Rifle
-            [ 
-                "s75",
-                "svd_dragunov",
-                "h_k_psg_1"
-            ]
+            // Light weapons
+            [ "beretta_m92f", "vz61", "ak_74", "h_k_mp5", "sig_556", "m93r", "h_k_p8" ],
+            // Heavy weapons
+            [ "ithaca_37", "benelli_m3", "jailbreaker", "s_w_m29", "l_hawk", "m40_gl", "s_w_m500", "hydra", "minigun", "longbow" ],
+            // Rifles
+            [ "s75", "svd_dragunov", "h_k_psg_1" ]
         ]
     },
     "weapons_upgrades_grid": {
@@ -108,123 +47,38 @@
         "item_size": "48, 48",
         "h_alignment": "left",
         "rows": [
-            [
-                "m92f_firepower_upgrades",
-                "m92f_reload_speed_upgrades",
-                "m92f_capacity_upgrades",
-                "m92f_critical_hit_upgrades",
-                "h_k_p8_firepower_upgrades",
-                "h_k_p8_reload_speed_upgrades",
-                "h_k_p8_capacity_upgrades",
-                "h_k_p8_piercing_upgrades",
-                "sig_p226_firepower_upgrades",
-                "sig_p226_reload_speed_upgrades",
-                "sig_p226_capacity_upgrades"
-            ],
-            [
-                "m93r_firepower_upgrades",
-                "m93r_reload_speed_upgrades",
-                "m93r_capacity_upgrades",
-                "ithaca_37_firepower_upgrades",
-                "ithaca_37_reload_speed_upgrades",
-                "ithaca_37_capacity_upgrades",
-                "ithaca_37_critical_hit_upgrades",
-                "m3_firepower_upgrades",
-                "m3_reload_speed_upgrades",
-                "m3_capacity_upgrades"
-            ],
-            [
-                "jailbreaker_firepower_upgrades",
-                "jailbreaker_reload_speed_upgrades",
-                "jailbreaker_capacity_upgrades",
-                "jailbreaker_attack_range_upgrades",
-                "hydra_firepower_upgrades",
-                "hydra_reload_speed_upgrades",
-                "hydra_capacity_upgrades",
-                "hydra_attack_range_upgrades",
-                "vz61_firepower_upgrades",
-                "vz61_reload_speed_upgrades",
-                "vz61_capacity_upgrades",
-                "vz61_critical_hit_upgrades"
-            ],
-            [
-                "ak74_firepower_upgrades",
-                "ak74_reload_speed_upgrades",
-                "ak74_capacity_upgrades",
-                "h_k_mp5_firepower_upgrades",
-                "h_k_mp5_reload_speed_upgrades",
-                "h_k_mp5_capacity_upgrades",
-                "h_k_mp5_piercing_upgrades",
-                "sig_556_firepower_upgrades",
-                "sig_556_reload_speed_upgrades",
-                "sig_556_capacity_upgrades"
-            ],
-            [
-                "s75_firepower_upgrades",
-                "s75_reload_speed_upgrades",
-                "s75_capacity_upgrades",
-                "dragunov_svd_firepower_upgrades",
-                "dragunov_svd_reload_speed_upgrades",
-                "dragunov_svd_capacity_upgrades",
-                "h_k_psg_1_firepower_upgrades",
-                "h_k_psg_1_reload_speed_upgrades",
-                "h_k_psg_1_capacity_upgrades",
-                "h_k_psg_1_scope_upgrades"
-            ],
-            [
-                "s_w_m29_firepower_upgrades",
-                "s_w_m29_reload_speed_upgrades",
-                "s_w_m29_capacity_upgrades",
-                "s_w_m29_piercing_upgrades",
-                "l_hawk_firepower_upgrades",
-                "l_hawk_reload_speed_upgrades",
-                "l_hawk_capacity_upgrades",
-                "l_hawk_piercing_upgrades",
-                "s_w_m500_firepower_upgrades",
-                "s_w_m500_reload_speed_upgrades",
-                "s_w_m500_capacity_upgrades",
-                "s_w_m500_piercing_upgrades"
-            ]
-            //, Infinite ammo
-            /*[
-                "beretta_m92f_infinite_ammo",
-                "ithaca_37_infinite_ammo",
-                "benelli_m3_infinite_ammo",
-                "jailbreaker_infinite_ammo",
-                "vz61_infinite_ammo",
-                "ak_74_infinite_ammo",
-                "h_k_mp5_infinite_ammo",
-                "sig_556_infinite_ammo",
-                "s75_infinite_ammo"
-            ],
-            [
-                "svd_dragunov_infinite_ammo",
-                "h_k_psg_1_infinite_ammo",
-                "s_w_m29_infinite_ammo",
-                "l_hawk_infinite_ammo",
-                "m40_gl_infinite_ammo",
-                "rocket_launcher_infinite_ammo",
-                "m93r_infinite_ammo",
-                "s_w_m500_infinite_ammo",
-                "hydra_infinite_ammo",
-                "h_k_p8_infinite_ammo"
-            ]*/
+            // ── Pistols ──────────────────────────────
+            [ "m92f_firepower_upgrades",       "m92f_reload_speed_upgrades",       "m92f_capacity_upgrades",       "m92f_critical_hit_upgrades"      ],
+            [ "h_k_p8_firepower_upgrades",     "h_k_p8_reload_speed_upgrades",     "h_k_p8_capacity_upgrades",     "h_k_p8_piercing_upgrades"        ],
+            [ "sig_p226_firepower_upgrades",   "sig_p226_reload_speed_upgrades",   "sig_p226_capacity_upgrades"                                      ],
+            [ "m93r_firepower_upgrades",       "m93r_reload_speed_upgrades",       "m93r_capacity_upgrades"                                          ],
+            // ── SMGs ─────────────────────────────────
+            [ "vz61_firepower_upgrades",       "vz61_reload_speed_upgrades",       "vz61_capacity_upgrades",       "vz61_critical_hit_upgrades"      ],
+            [ "ak74_firepower_upgrades",       "ak74_reload_speed_upgrades",       "ak74_capacity_upgrades"                                          ],
+            [ "h_k_mp5_firepower_upgrades",    "h_k_mp5_reload_speed_upgrades",    "h_k_mp5_capacity_upgrades",    "h_k_mp5_piercing_upgrades"       ],
+            [ "sig_556_firepower_upgrades",    "sig_556_reload_speed_upgrades",    "sig_556_capacity_upgrades"                                       ],
+            // ── Shotguns ─────────────────────────────
+            [ "ithaca_37_firepower_upgrades",  "ithaca_37_reload_speed_upgrades",  "ithaca_37_capacity_upgrades",  "ithaca_37_critical_hit_upgrades" ],
+            [ "m3_firepower_upgrades",         "m3_reload_speed_upgrades",         "m3_capacity_upgrades"                                            ],
+            [ "jailbreaker_firepower_upgrades","jailbreaker_reload_speed_upgrades","jailbreaker_capacity_upgrades","jailbreaker_attack_range_upgrades"],
+            [ "hydra_firepower_upgrades",      "hydra_reload_speed_upgrades",      "hydra_capacity_upgrades",      "hydra_attack_range_upgrades"     ],
+            // ── Magnums ──────────────────────────────
+            [ "s_w_m29_firepower_upgrades",    "s_w_m29_reload_speed_upgrades",    "s_w_m29_capacity_upgrades",    "s_w_m29_piercing_upgrades"       ],
+            [ "l_hawk_firepower_upgrades",     "l_hawk_reload_speed_upgrades",     "l_hawk_capacity_upgrades",     "l_hawk_piercing_upgrades"        ],
+            [ "s_w_m500_firepower_upgrades",   "s_w_m500_reload_speed_upgrades",   "s_w_m500_capacity_upgrades",   "s_w_m500_piercing_upgrades"      ],
+            // ── Rifles ───────────────────────────────
+            [ "s75_firepower_upgrades",        "s75_reload_speed_upgrades",        "s75_capacity_upgrades"                                           ],
+            [ "dragunov_svd_firepower_upgrades","dragunov_svd_reload_speed_upgrades","dragunov_svd_capacity_upgrades"                                ],
+            [ "h_k_psg_1_firepower_upgrades",  "h_k_psg_1_reload_speed_upgrades",  "h_k_psg_1_capacity_upgrades",  "h_k_psg_1_scope_upgrades"       ]
         ]
-    }
-,
+    },
     "settings_grid": {
         "type": "itemgrid",
         "item_margin": "3, 3",
         "item_size": "48, 48",
         "h_alignment": "left",
         "rows": [
-            [
-                "emblemsanity",
-                "treasuresanity",
-                "shopsanity",
-                "expert_logic"
-            ]
+            [ "emblemsanity", "treasuresanity", "shopsanity", "expert_logic" ]
         ]
     }
-
 }
