@@ -36,6 +36,7 @@ end
 
 -- Layout
 Tracker:AddLayouts("layouts/items.jsonc")
+Tracker:AddLayouts("layouts/chapters.jsonc")
 Tracker:AddLayouts("layouts/tracker.jsonc")
 Tracker:AddLayouts("layouts/broadcast.jsonc")
 
