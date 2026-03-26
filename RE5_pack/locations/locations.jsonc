@@ -347,12 +347,12 @@
     "children": [
       {
         "name": "Completed Chapter 2-3",
-        "map_locations": [{"map": "Chapter 2-3", "x": 0, "y": 0}],
+        "map_locations": [{"map": "Chapter 2-2", "x": 0, "y": 0}],
         "sections": [{"name": "Check", "item_count": 1}]
       },
       {
         "name": "2-3 Defeat Ndesu Ogre",
-        "map_locations": [{"map": "Chapter 2-3", "x": 0, "y": 0}],
+        "map_locations": [{"map": "Chapter 2-2", "x": 0, "y": 0}],
         "sections": [{"name": "Check", "item_count": 1}]
       }
     ]
