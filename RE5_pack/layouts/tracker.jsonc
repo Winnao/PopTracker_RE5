@@ -7,35 +7,24 @@
       "dropshadow": true,
       "content": [
         {
-          "type": "tabbed",
+          "type": "dock",
           "dock": "left",
-          "tabs": [
+          "content": [
             {
-              "title": "Key Items",
-              "content": {
-                "type": "dock",
-                "content": [
-                  { "type": "group", "header": "Options",   "dock": "top", "content": { "type": "layout", "key": "settings_grid" } },
-                  { "type": "group", "header": "Key Items", "dock": "top", "content": { "type": "layout", "key": "key_items_grid" } },
-                  { "type": "group", "header": "Chapters",  "dock": "top", "content": { "type": "layout", "key": "chapters_grid" } }
-                ]
-              }
+              "type": "group",
+              "header": "Options",
+              "dock": "top",
+              "content": { "type": "layout", "key": "settings_grid" }
             },
             {
-              "title": "Weapons",
-              "content": {
-                "type": "group",
-                "header": "Weapons",
-                "content": { "type": "layout", "key": "weapons_grid" }
-              }
-            },
-            {
-              "title": "Upgrades",
-              "content": {
-                "type": "group",
-                "header": "Weapon Upgrades",
-                "content": { "type": "layout", "key": "weapons_upgrades_grid" }
-              }
+              "type": "array",
+              "orientation": "horizontal",
+              "content": [
+                { "type": "group", "header": "Chapters",        "content": { "type": "layout", "key": "chapters_grid" } },
+                { "type": "group", "header": "Key Items",       "content": { "type": "layout", "key": "key_items_grid" } },
+                { "type": "group", "header": "Weapons",         "content": { "type": "layout", "key": "weapons_grid" } },
+                { "type": "group", "header": "Weapon Upgrades", "content": { "type": "layout", "key": "weapons_upgrades_grid" } }
+              ]
             }
           ]
         },
@@ -56,35 +45,24 @@
       "dropshadow": true,
       "content": [
         {
-          "type": "tabbed",
+          "type": "dock",
           "dock": "left",
-          "tabs": [
+          "content": [
             {
-              "title": "Key Items",
-              "content": {
-                "type": "dock",
-                "content": [
-                  { "type": "group", "header": "Options",   "dock": "top", "content": { "type": "layout", "key": "settings_grid" } },
-                  { "type": "group", "header": "Key Items", "dock": "top", "content": { "type": "layout", "key": "key_items_grid" } },
-                  { "type": "group", "header": "Chapters",  "dock": "top", "content": { "type": "layout", "key": "chapters_grid" } }
-                ]
-              }
+              "type": "group",
+              "header": "Options",
+              "dock": "top",
+              "content": { "type": "layout", "key": "settings_grid" }
             },
             {
-              "title": "Weapons",
-              "content": {
-                "type": "group",
-                "header": "Weapons",
-                "content": { "type": "layout", "key": "weapons_grid" }
-              }
-            },
-            {
-              "title": "Upgrades",
-              "content": {
-                "type": "group",
-                "header": "Weapon Upgrades",
-                "content": { "type": "layout", "key": "weapons_upgrades_grid" }
-              }
+              "type": "array",
+              "orientation": "horizontal",
+              "content": [
+                { "type": "group", "header": "Chapters",        "content": { "type": "layout", "key": "chapters_grid" } },
+                { "type": "group", "header": "Key Items",       "content": { "type": "layout", "key": "key_items_grid" } },
+                { "type": "group", "header": "Weapons",         "content": { "type": "layout", "key": "weapons_grid" } },
+                { "type": "group", "header": "Weapon Upgrades", "content": { "type": "layout", "key": "weapons_upgrades_grid" } }
+              ]
             }
           ]
         },
