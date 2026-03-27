@@ -43,8 +43,8 @@
     },
     "weapons_upgrades_grid": {
         "type": "itemgrid",
-        "item_margin": "3, 3",
-        "item_size": "48, 48",
+        "item_margin": "2, 2",
+        "item_size": "36, 36",
         "h_alignment": "left",
         "rows": [
             // ── Pistols ──────────────────────────────
