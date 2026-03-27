@@ -6,12 +6,13 @@
         "item_size": "48, 48",
         "h_alignment": "left",
         "rows": [
-            [ "chapter_1_1",       "chapter_1_2",       "chapter_2_1"       ],
-            [ "chapter_2_2",       "chapter_2_3",       "chapter_3_1"       ],
-            [ "chapter_3_2",       "chapter_3_3",       "chapter_4_1"       ],
-            [ "chapter_4_2",       "chapter_5_1",       "chapter_5_2"       ],
-            [ "chapter_5_3",       "chapter_6_1",       "chapter_6_2"       ],
-            [ "chapter_6_3",       "desperate_escape",  "lost_in_nightmares"]
+            [ "chapter_1_1", "chapter_1_2"                          ],
+            [ "chapter_2_1", "chapter_2_2", "chapter_2_3"           ],
+            [ "chapter_3_1", "chapter_3_2", "chapter_3_3"           ],
+            [ "chapter_4_1", "chapter_4_2"                          ],
+            [ "chapter_5_1", "chapter_5_2", "chapter_5_3"           ],
+            [ "chapter_6_1", "chapter_6_2", "chapter_6_3"           ],
+            [ "desperate_escape", "lost_in_nightmares"              ]
         ]
     },
     "key_items_grid": {
@@ -20,12 +21,15 @@
         "item_size": "48, 48",
         "h_alignment": "left",
         "rows": [
-            [ "old_building_key",  "furnace_key",        "port_key"          ],
-            [ "guard_s_key",       "beast_slate",        "shaman_slate"      ],
-            [ "raptor_slate",      "warrior_slate",      "sky_emblem"        ],
-            [ "earth_emblem",      "sea_emblem",         "crane_keycard"     ],
-            [ "tanker_keycard_a",  "tanker_keycard_b",   "bridge_keycard"    ],
-            [ "hangar_keycard_a",  "hangar_keycard_b",   "progressive_treasure" ]
+            [ "old_building_key",  "furnace_key"         ],
+            [ "port_key",          "guard_s_key"         ],
+            [ "beast_slate",       "shaman_slate"        ],
+            [ "raptor_slate",      "warrior_slate"       ],
+            [ "sky_emblem",        "earth_emblem"        ],
+            [ "sea_emblem",        "crane_keycard"       ],
+            [ "tanker_keycard_a",  "tanker_keycard_b"    ],
+            [ "bridge_keycard",    "hangar_keycard_a"    ],
+            [ "hangar_keycard_b",  "progressive_treasure"]
         ]
     },
     "weapons_grid": {
@@ -35,16 +39,16 @@
         "h_alignment": "left",
         "rows": [
             // Light weapons
-            [ "beretta_m92f",  "vz61",       "ak_74"      ],
-            [ "h_k_mp5",       "sig_556",    "m93r"       ],
-            [ "h_k_p8"                                     ],
+            [ "beretta_m92f",  "vz61",         "ak_74"      ],
+            [ "h_k_mp5",       "sig_556",      "m93r"       ],
+            [ "h_k_p8"                                       ],
             // Heavy weapons
-            [ "ithaca_37",     "benelli_m3", "jailbreaker"],
-            [ "s_w_m29",       "l_hawk",     "m40_gl"     ],
-            [ "s_w_m500",      "hydra",      "minigun"    ],
-            [ "longbow"                                    ],
+            [ "ithaca_37",     "benelli_m3",   "jailbreaker"],
+            [ "s_w_m29",       "l_hawk",       "m40_gl"     ],
+            [ "s_w_m500",      "hydra",        "minigun"    ],
+            [ "longbow"                                      ],
             // Rifles
-            [ "s75",           "svd_dragunov", "h_k_psg_1"]
+            [ "s75",           "svd_dragunov", "h_k_psg_1"  ]
         ]
     },
     "weapons_upgrades_grid": {
