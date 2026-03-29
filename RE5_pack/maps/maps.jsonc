@@ -124,5 +124,15 @@
     "img": "images/maps/Desperate_Escape_2.png",
     "location_size": 12,
     "location_border_thickness": 2
+  },
+  // ==========================================================
+  // SHOP TAB - separate tab for all shop purchase checks
+  // Image is a placeholder; replace with a shop screenshot if desired
+  // ==========================================================
+  {
+    "name": "Shop",
+    "img": "images/maps/Shop.png",
+    "location_size": 14,
+    "location_border_thickness": 2
   }
 ]
