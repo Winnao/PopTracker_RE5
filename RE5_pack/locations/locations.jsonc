@@ -1,1 +1,5005 @@
-[\n  {\n    \"name\": \"Chapter 1-1\",\n    \"access_rules\": [\n      \"chapter_1_1\"\n    ],\n    \"children\": [\n      {\n        \"name\": \"Completed Chapter 1-1\",\n        \"access_rules\": [\n          \"$has_lightweapon()\",\n          \"$has_heavyweapon()\",\n          \"$has_rifle()\"\n        ],\n        \"map_locations\": [\n          {\n            \"map\": \"Chapter 1-1\",\n            \"x\": 80,\n            \"y\": 80\n          }\n        ],\n        \"sections\": [\n          {\n            \"name\": \"Check\",\n            \"item_count\": 1\n          }\n        ]\n      }\n    ]\n  }\n]
+[
+  {
+    "name": "Chapter 1-1",
+    "access_rules": [
+      "chapter_1_1"
+    ],
+    "children": [
+      {
+        "name": "Completed Chapter 1-1",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 1-1",
+            "x": 80,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "1-1 Pickup_Beretta_M92F",
+        "map_locations": [
+          {
+            "map": "Chapter 1-1",
+            "x": 750,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "1-1 Pickup_VZ61",
+        "map_locations": [
+          {
+            "map": "Chapter 1-1",
+            "x": 1420,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "1-1 Defeat Executioner",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 1-1",
+            "x": 80,
+            "y": 634
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 1-1 Gold Ring - Executioner Majini",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 1-1",
+            "x": 750,
+            "y": 634,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Chapter 1-2",
+    "access_rules": [
+      "chapter_1_2"
+    ],
+    "children": [
+      {
+        "name": "1-2 BSAA_Emblem_Balcony",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "emblemsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 1-2",
+            "x": 80,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "emblemsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "1-2 BSAA_Emblem_Water_Tower",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "emblemsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 1-2",
+            "x": 415,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "emblemsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "1-2 BSAA_Emblem_Past_Uroboros_Near_Ammo_Case",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "emblemsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 1-2",
+            "x": 750,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "emblemsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Old Building Key",
+        "map_locations": [
+          {
+            "map": "Chapter 1-2",
+            "x": 1085,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Furnace Key",
+        "map_locations": [
+          {
+            "map": "Chapter 1-2",
+            "x": 1420,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Completed Chapter 1-2",
+        "access_rules": [
+          "furnace_key",
+          "$has_explosive()",
+          "expert_logic,$has_explosive()"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 1-2",
+            "x": 80,
+            "y": 401
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "1-2 Pickup_Ithaca_37",
+        "access_rules": [
+          "old_building_key"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 1-2",
+            "x": 415,
+            "y": 401
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "1-2 Defeat Furnace Room Uroboros",
+        "access_rules": [
+          "furnace_key",
+          "$has_explosive()",
+          "expert_logic,$has_explosive()"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 1-2",
+            "x": 750,
+            "y": 401
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "1-2 Defeat Blonde Girl",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 1-2",
+            "x": 1085,
+            "y": 401
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 1-2 Ivory Relief - Blonde Cephalo Girl",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()",
+          "expert_logic"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 1-2",
+            "x": 1420,
+            "y": 401,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 1-2 Antique Clock - Balcony Across from Emblem",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 1-2",
+            "x": 80,
+            "y": 722,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Chapter 2-1",
+    "access_rules": [
+      "chapter_2_1"
+    ],
+    "children": [
+      {
+        "name": "2-1 BSAA_Emblem_Garage_Wall",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "emblemsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 2-1",
+            "x": 80,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "emblemsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "2-1 BSAA_Emblem_Under_Bridge",
+        "access_rules": [
+          "$has_rifle()",
+          "expert_logic,$has_any_weapon()"
+        ],
+        "visibility_rules": [
+          "emblemsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 2-1",
+            "x": 271,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "emblemsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "2-1 BSAA_Emblem_Port_Before_Boat",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "emblemsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 2-1",
+            "x": 463,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "emblemsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "2-1 BSAA_Emblem_Port_After_Boat",
+        "access_rules": [
+          "$has_lightweapon(),port_key",
+          "$has_heavyweapon(),port_key",
+          "$has_rifle(),port_key"
+        ],
+        "visibility_rules": [
+          "emblemsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 2-1",
+            "x": 654,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "emblemsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "2-1 BSAA_Emblem_Roof_Assistjump",
+        "access_rules": [
+          "$has_lightweapon(),port_key",
+          "$has_heavyweapon(),port_key",
+          "$has_rifle(),port_key"
+        ],
+        "visibility_rules": [
+          "emblemsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 2-1",
+            "x": 846,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "emblemsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Port Key",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()",
+          "expert_logic,m40_gl"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 2-1",
+            "x": 1037,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Guard's Key",
+        "access_rules": [
+          "$has_lightweapon(),port_key",
+          "$has_heavyweapon(),port_key",
+          "$has_rifle(),port_key"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 2-1",
+            "x": 1229,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Completed Chapter 2-1",
+        "access_rules": [
+          "port_key,guard_s_key,$has_heavyweapon()"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 2-1",
+            "x": 1420,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "2-1 Pickup_H&K_MP5",
+        "map_locations": [
+          {
+            "map": "Chapter 2-1",
+            "x": 80,
+            "y": 424
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "2-1 Pickup_S75",
+        "access_rules": [
+          "port_key"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 2-1",
+            "x": 271,
+            "y": 424
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 2-1 Topaz Pear - Before Port in Sea near Boat ",
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 2-1",
+            "x": 463,
+            "y": 424,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 2-1 Sapphire Pear - Sewer Line Before Ambush",
+        "access_rules": [
+          "$has_lightweapon(),port_key"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 2-1",
+            "x": 654,
+            "y": 424,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 2-1 Ruby Square -  Chest after Chainsaw Majini",
+        "access_rules": [
+          "guard_s_key"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 2-1",
+            "x": 846,
+            "y": 424,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 2-1 Emerald Square - Top of Port Key House",
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 2-1",
+            "x": 1037,
+            "y": 424,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 2-1 Ruby Marquise - Market near Port Key",
+        "access_rules": [
+          "$has_explosive()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 2-1",
+            "x": 1229,
+            "y": 424,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Chapter 2-2",
+    "access_rules": [
+      "chapter_2_2"
+    ],
+    "children": [
+      {
+        "name": "2-2 BSAA_Emblem_Power_Pole_Near_Trains",
+        "access_rules": [
+          "$has_rifle()",
+          "expert_logic,$has_lightweapon()"
+        ],
+        "visibility_rules": [
+          "emblemsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 2-2",
+            "x": 80,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "emblemsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "2-2 BSAA_Emblem_Waterfall",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "emblemsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 2-2",
+            "x": 271,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "emblemsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "2-2 BSAA_Emblem_Warehouse_Roof",
+        "access_rules": [
+          "$has_rifle()",
+          "expert_logic,$has_lightweapon()"
+        ],
+        "visibility_rules": [
+          "emblemsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 2-2",
+            "x": 463,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "emblemsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Completed Chapter 2-2",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 2-2",
+            "x": 654,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "2-2 Pickup_SVD",
+        "map_locations": [
+          {
+            "map": "Chapter 2-2",
+            "x": 846,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "2-2 Defeat Mining Area Popokarimu",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 2-2",
+            "x": 1037,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 2-2 Diamond Brilliant - Small Ladder near Warehouse Chest",
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 2-2",
+            "x": 1229,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 2-2 Jewel Beetle - End of Train Station",
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 2-2",
+            "x": 1420,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 2-2 Jewel Beetle - Plank Climb on Train",
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 2-2",
+            "x": 80,
+            "y": 454,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 2-2 Ruby Pear - Roof above Water",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 2-2",
+            "x": 271,
+            "y": 454,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 2-2 Ruby Pear - Roof above Waterfall Bridge",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 2-2",
+            "x": 463,
+            "y": 454,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 2-2 Diamond Pear - First Tall Ladder",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 2-2",
+            "x": 654,
+            "y": 454,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 2-2 Ruby Square - Leftside Cave Roof after Dark Tunnel",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 2-2",
+            "x": 846,
+            "y": 454,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 2-2 Ruby Square - Mekanism after Dark Tunnel",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 2-2",
+            "x": 1037,
+            "y": 454,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 2-2 Diamond Square - Broken Ladder Assist Jump",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 2-2",
+            "x": 1229,
+            "y": 454,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 2-2 Diamond Oval -  Dark Tunnel Hidden Chest before Crank",
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 2-2",
+            "x": 1420,
+            "y": 454,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Chapter 2-3",
+    "access_rules": [
+      "chapter_2_3"
+    ],
+    "children": [
+      {
+        "name": "Completed Chapter 2-3",
+        "map_locations": [
+          {
+            "map": "Chapter 2-2",
+            "x": 80,
+            "y": 267
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "2-3 Defeat Ndesu Ogre",
+        "map_locations": [
+          {
+            "map": "Chapter 2-2",
+            "x": 750,
+            "y": 267
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Chapter 3-1",
+    "access_rules": [
+      "chapter_3_1"
+    ],
+    "children": [
+      {
+        "name": "3-1 BSAA_Emblem_Power_Pole_Near_Spawn",
+        "access_rules": [
+          "$has_rifle()",
+          "expert_logic,$has_lightweapon()"
+        ],
+        "visibility_rules": [
+          "emblemsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 3-1",
+            "x": 80,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "emblemsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "3-1 BSAA_Emblem_Northwest",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "emblemsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 3-1",
+            "x": 303,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "emblemsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "3-1 BSAA_Emblem_Chicken_Coop",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "emblemsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 3-1",
+            "x": 527,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "emblemsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "3-1 BSAA_Emblem_Waistdeep_Water",
+        "access_rules": [
+          "$has_lightweapon(),beast_slate,warrior_slate,raptor_slate,shaman_slate"
+        ],
+        "visibility_rules": [
+          "emblemsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 3-1",
+            "x": 750,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "emblemsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Beast Slate",
+        "map_locations": [
+          {
+            "map": "Chapter 3-1",
+            "x": 973,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Shaman Slate",
+        "map_locations": [
+          {
+            "map": "Chapter 3-1",
+            "x": 1197,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Raptor Slate",
+        "map_locations": [
+          {
+            "map": "Chapter 3-1",
+            "x": 1420,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Warrior Slate",
+        "map_locations": [
+          {
+            "map": "Chapter 3-1",
+            "x": 80,
+            "y": 304
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Completed Chapter 3-1",
+        "access_rules": [
+          "beast_slate,shaman_slate,raptor_slate,warrior_slate,$has_heavyweapon()",
+          "beast_slate,shaman_slate,raptor_slate,warrior_slate,expert_logic"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 3-1",
+            "x": 303,
+            "y": 304
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "3-1 Pickup_S&W_M29",
+        "access_rules": [
+          "beast_slate,shaman_slate,raptor_slate,warrior_slate"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 3-1",
+            "x": 527,
+            "y": 304
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "3-1 Pickup_Rocket_Launcher",
+        "map_locations": [
+          {
+            "map": "Chapter 3-1",
+            "x": 750,
+            "y": 304
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 3-1 Chalice Silver - Chicken Coop Chest",
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 3-1",
+            "x": 973,
+            "y": 304,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 3-1 Chalice Silver - Northwest Fish Island Tower Chest",
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 3-1",
+            "x": 1197,
+            "y": 304,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 3-1 Idol Silver -  Assist Jump near Shaman Slate",
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 3-1",
+            "x": 1420,
+            "y": 304,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 3-1 Idol Silver - Southwest Village Open Platform Chest",
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 3-1",
+            "x": 80,
+            "y": 528,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 3-1 Ceremonial Mask -  Tram at End of Chapter",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 3-1",
+            "x": 303,
+            "y": 528,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 3-1 Beetle Brown - Tree near Beast Slate",
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 3-1",
+            "x": 527,
+            "y": 528,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 3-1 Beetle Brown - Southwest Village on Tree",
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 3-1",
+            "x": 750,
+            "y": 528,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 3-1 Beetle Brown - Northeast Fence in Open Water ",
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 3-1",
+            "x": 973,
+            "y": 528,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 3-1 Beetle Brown - Alligator Swamp Tree",
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 3-1",
+            "x": 1197,
+            "y": 528,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 3-1 Beetle Brown - Chicken Coop near Boat",
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 3-1",
+            "x": 1420,
+            "y": 528,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 3-1 Beetle Brown - Rocket Launcher Boat",
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 3-1",
+            "x": 80,
+            "y": 752,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 3-1 Beetle Brown - Northwest Fish Island in Water",
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 3-1",
+            "x": 303,
+            "y": 752,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 3-1 Ruby Pear -  Skull at Spawn",
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 3-1",
+            "x": 527,
+            "y": 752,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 3-1 Ruby Pear - Fence near Ladder in Alligator Swamp",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 3-1",
+            "x": 750,
+            "y": 752,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 3-1 Ruby Pear -  Eastern Island Skull on Hut",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 3-1",
+            "x": 973,
+            "y": 752,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 3-1 Emerald Pear- Eastern Island Skull Altar near Boat",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 3-1",
+            "x": 1197,
+            "y": 752,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 3-1 Blue Enigma - Giant Tribal Majini in Village",
+        "access_rules": [
+          "$has_heavyweapon()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 3-1",
+            "x": 1420,
+            "y": 752,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Chapter 3-2",
+    "access_rules": [
+      "chapter_3_2"
+    ],
+    "children": [
+      {
+        "name": "3-2 BSAA_Emblem_Tricell_Tents",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "emblemsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 3-2",
+            "x": 80,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "emblemsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "3-2 BSAA_Emblem_Oil_Refinery_Escape",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "emblemsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 3-2",
+            "x": 303,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "emblemsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Completed Chapter 3-2",
+        "map_locations": [
+          {
+            "map": "Chapter 3-2",
+            "x": 527,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 3-2 Gold Ring - Chainsaw Majini near Josh",
+        "access_rules": [
+          "$has_heavyweapon()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 3-2",
+            "x": 750,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 3-2 Gold Ring - Bigman Majini",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 3-2",
+            "x": 973,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 3-2 Jewel Bangle - First Bigman near Josh",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 3-2",
+            "x": 1197,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 3-2 Jewel Bangle - Second Bigman near Josh",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 3-2",
+            "x": 1420,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 3-2 Venom Fang - Chainsaw Majini Duo",
+        "access_rules": [
+          "$has_heavyweapon()",
+          "expert_logic,$has_lightweapon()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 3-2",
+            "x": 80,
+            "y": 372,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 3-2 Jewel Beetle -  Oil Barrel near Tricell Tents",
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 3-2",
+            "x": 303,
+            "y": 372,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 3-2 Ruby Pear - First Skull Lantern in Cave",
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 3-2",
+            "x": 527,
+            "y": 372,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 3-2 Ruby Square - Cliff near Oil Refinery Door",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 3-2",
+            "x": 750,
+            "y": 372,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 3-2 Sapphire Square -  Second Skull Lantern in Cave",
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 3-2",
+            "x": 973,
+            "y": 372,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Chapter 3-3",
+    "access_rules": [
+      "chapter_3_3"
+    ],
+    "children": [
+      {
+        "name": "3-3 BSAA_Emblem_Under_First_Gate",
+        "access_rules": [
+          "$has_rifle()",
+          "expert_logic,$has_any_weapon()"
+        ],
+        "visibility_rules": [
+          "emblemsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 3-3",
+            "x": 80,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "emblemsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Completed Chapter 3-3",
+        "map_locations": [
+          {
+            "map": "Chapter 3-3",
+            "x": 750,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "3-3 Pickup_Benelli_M3",
+        "map_locations": [
+          {
+            "map": "Chapter 3-3",
+            "x": 1420,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "3-3 Defeat Irving",
+        "map_locations": [
+          {
+            "map": "Chapter 3-3",
+            "x": 80,
+            "y": 822
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 3-3 Sapphire Pear - Second Boat Stop near Shed",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 3-3",
+            "x": 750,
+            "y": 822,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 3-3 Emerald Marquise -  Gatling Gun Office Drawer",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 3-3",
+            "x": 1420,
+            "y": 822,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Chapter 4-1",
+    "access_rules": [
+      "chapter_4_1"
+    ],
+    "children": [
+      {
+        "name": "4-1 BSAA_Emblem_Waterfall",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "emblemsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 4-1",
+            "x": 80,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "emblemsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "4-1 BSAA_Emblem_Above_Fireball_Door",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "emblemsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 4-1",
+            "x": 248,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "emblemsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "4-1 BSAA_Emblem_Top_of_Staircase_Room",
+        "access_rules": [
+          "$has_rifle()",
+          "expert_logic,$has_lightweapon()"
+        ],
+        "visibility_rules": [
+          "emblemsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 4-1",
+            "x": 415,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "emblemsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Completed Chapter 4-1",
+        "map_locations": [
+          {
+            "map": "Chapter 4-1",
+            "x": 582,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "4-1 Pickup_M40_GL",
+        "map_locations": [
+          {
+            "map": "Chapter 4-1",
+            "x": 750,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "4-1 Defeat Labyrinth Popokarimu",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 4-1",
+            "x": 918,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 4-1 Idol Gold - Chest Jump near Second Statue",
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 4-1",
+            "x": 1085,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 4-1 Topaz Pear - Middle of Stairs Lantern near Falling Bridge",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 4-1",
+            "x": 1252,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 4-1 Topaz Pear - Brazier before Door",
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 4-1",
+            "x": 1420,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 4-1 Ruby Pear - Rightside Skull on Ground before Door",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()",
+          "expert_logic"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 4-1",
+            "x": 80,
+            "y": 246,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 4-1 Ruby Pear - Mummy past Falling Bridge",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 4-1",
+            "x": 248,
+            "y": 246,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 4-1 Ruby Pear - Split Floor Cord Pull Bottom Statue",
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 4-1",
+            "x": 415,
+            "y": 246,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 4-1 Sapphire Pear - Roof Behind Chest past Ladder",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 4-1",
+            "x": 582,
+            "y": 246,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 4-1 Sapphire Pear - Leftside Skull on Ground before Door",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()",
+          "expert_logic"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 4-1",
+            "x": 750,
+            "y": 246,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 4-1 Sapphire Pear - Sarcophagus past Falling Bridge",
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 4-1",
+            "x": 918,
+            "y": 246,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 4-1 Sapphire Pear - Split Floor Cord Pull Top Statue",
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 4-1",
+            "x": 1085,
+            "y": 246,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 4-1 Emerald Pear - Spider Room Lantern",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 4-1",
+            "x": 1252,
+            "y": 246,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 4-1 Topaz Square - Above Wooden Stairs in Roof",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 4-1",
+            "x": 1420,
+            "y": 246,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 4-1 Topaz Square - Archway Above Labyrinth",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 4-1",
+            "x": 80,
+            "y": 412,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 4-1 Sapphire Square - Assist Jump Chest",
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 4-1",
+            "x": 248,
+            "y": 412,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 4-1 Sapphire Square - First Statue Cord Pull",
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 4-1",
+            "x": 415,
+            "y": 412,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 4-1 Sapphire Square - Spider Room Lantern",
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 4-1",
+            "x": 582,
+            "y": 412,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 4-1 Emerald Square - Across Grenade Launcher Above Statue",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 4-1",
+            "x": 750,
+            "y": 412,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 4-1 Emerald Square - Second Statue Cord Pull",
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 4-1",
+            "x": 918,
+            "y": 412,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 4-1 Ruby Oval - Red Statue Cord Pull",
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 4-1",
+            "x": 1085,
+            "y": 412,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 4-1 Topaz Trilliant - Chest Climb Past Ladder",
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 4-1",
+            "x": 1252,
+            "y": 412,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 4-1 Ruby Trilliant - Plus Hallway South Chest",
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 4-1",
+            "x": 1420,
+            "y": 412,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 4-1 Sapphire Trilliant - Plus Hallway East Chest",
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 4-1",
+            "x": 80,
+            "y": 578,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 4-1 Emerald Trilliant - Plus Hallway West Chest",
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 4-1",
+            "x": 248,
+            "y": 578,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 4-1 Soul Gem - Labyrinth Popokarimu",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()",
+          "$has_explosive()",
+          "expert_logic,$has_explosive()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 4-1",
+            "x": 415,
+            "y": 578,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Chapter 4-2",
+    "access_rules": [
+      "chapter_4_2"
+    ],
+    "children": [
+      {
+        "name": "4-2 BSAA_Emblem_Final_Laser_Room",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "emblemsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 4-2",
+            "x": 80,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "emblemsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Sky Emblem",
+        "map_locations": [
+          {
+            "map": "Chapter 4-2",
+            "x": 303,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Earth Emblem",
+        "map_locations": [
+          {
+            "map": "Chapter 4-2",
+            "x": 527,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Sea Emblem",
+        "access_rules": [
+          "$has_heavyweapon()"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 4-2",
+            "x": 750,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Completed Chapter 4-2",
+        "access_rules": [
+          "sky_emblem,earth_emblem,sea_emblem,$has_heavyweapon()"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 4-2",
+            "x": 973,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 4-2 Idol Gold - Laser Room Idol Door",
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 4-2",
+            "x": 1197,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 4-2 Gold Beetle - Laser Room Burning Effigy",
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 4-2",
+            "x": 1420,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 4-2 Topaz Pear - Behind Spawn on Door",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 4-2",
+            "x": 80,
+            "y": 512,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 4-2 Ruby Pear - Gold Idol Room Rightside Skull",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 4-2",
+            "x": 303,
+            "y": 512,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 4-2 Emerald Pear - Gold Idol Room Leftside Skull",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 4-2",
+            "x": 527,
+            "y": 512,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 4-2 Topaz Square - First Runway Alcove in Lantern",
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 4-2",
+            "x": 750,
+            "y": 512,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 4-2 Sapphire Square - Second Runway Alcove in Lantern",
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 4-2",
+            "x": 973,
+            "y": 512,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 4-2 Diamond Trilliant - Above Emblem Door",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 4-2",
+            "x": 1197,
+            "y": 512,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 4-2 Blue Enigma - Sea Emblem Guards",
+        "access_rules": [
+          "$has_heavyweapon()",
+          "$has_lightweapon(),expert_logic"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 4-2",
+            "x": 1420,
+            "y": 512,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Chapter 5-1",
+    "access_rules": [
+      "chapter_5_1"
+    ],
+    "children": [
+      {
+        "name": "5-1 BSAA_Emblem_Garden",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "emblemsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 5-1",
+            "x": 80,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "emblemsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Completed Chapter 5-1",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 5-1",
+            "x": 527,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "5-1 Pickup_AK74",
+        "map_locations": [
+          {
+            "map": "Chapter 5-1",
+            "x": 973,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "5-1 Defeat Ultimate-8",
+        "access_rules": [
+          "$has_explosive(),$has_lightweapon()"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 5-1",
+            "x": 1420,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 5-1 Jewel Beetle - Garden on Ground",
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 5-1",
+            "x": 80,
+            "y": 778,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 5-1 Emerald Pear - Above Garden",
+        "access_rules": [
+          "$has_rifle()",
+          "$has_lightweapon(),expert_logic"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 5-1",
+            "x": 527,
+            "y": 778,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 5-1 Ruby Square - Wall Behind Spawn",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_rifle()",
+          "expert_logic,$has_heavyweapon()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 5-1",
+            "x": 973,
+            "y": 778,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 5-1 Lion Heart - Near Ultimate-8",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 5-1",
+            "x": 1420,
+            "y": 778,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Chapter 5-2",
+    "access_rules": [
+      "chapter_5_2"
+    ],
+    "children": [
+      {
+        "name": "5-2 BSAA_Emblem_Dumpster",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()",
+          "expert_logic,$has_explosive()"
+        ],
+        "visibility_rules": [
+          "emblemsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 5-2",
+            "x": 80,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "emblemsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Completed Chapter 5-2",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 5-2",
+            "x": 527,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "5-2 Pickup_SIG_556",
+        "map_locations": [
+          {
+            "map": "Chapter 5-2",
+            "x": 973,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "5-2 Defeat Flamethrower Room Uroboros",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_explosive()"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 5-2",
+            "x": 1420,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 5-2 Dead Brides Necklace - Conveyor Belt Bodies",
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 5-2",
+            "x": 80,
+            "y": 552,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 5-2 Power Stone - Conveyor Belt Reaper",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 5-2",
+            "x": 527,
+            "y": 552,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 5-2 Lion Heart - Licker Horde Corridor",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 5-2",
+            "x": 973,
+            "y": 552,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Chapter 5-3",
+    "access_rules": [
+      "chapter_5_3"
+    ],
+    "children": [
+      {
+        "name": "5-3 BSAA_Emblem_Behind_Fan",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "emblemsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 5-3",
+            "x": 80,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "emblemsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "5-3 BSAA_Emblem_Spinning_Platform",
+        "access_rules": [
+          "$has_rifle()",
+          "expert_logic,$has_lightweapon()",
+          "expert_logic,$has_explosive()"
+        ],
+        "visibility_rules": [
+          "emblemsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 5-3",
+            "x": 271,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "emblemsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "5-3 BSAA_Emblem_Below_Construction_Elevator",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "emblemsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 5-3",
+            "x": 462,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "emblemsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Completed Chapter 5-3",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 5-3",
+            "x": 653,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "5-3 Pickup_H&K_PSG-1",
+        "map_locations": [
+          {
+            "map": "Chapter 5-3",
+            "x": 845,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "5-3 Pickup_L_Hawk",
+        "map_locations": [
+          {
+            "map": "Chapter 5-3",
+            "x": 1036,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "5-3 Chase off Wesker",
+        "map_locations": [
+          {
+            "map": "Chapter 5-3",
+            "x": 1227,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "5-3 Save Jill",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_rifle()",
+          "expert_logic,$has_heavyweapon()"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 5-3",
+            "x": 1418,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 5-3 Royal Necklace - Control Room",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 5-3",
+            "x": 80,
+            "y": 287,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 5-3 Chalice Gold - Locker in Drop Down Building",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()",
+          "expert_logic"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 5-3",
+            "x": 271,
+            "y": 287,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 5-3 Sapphire Oval - Northwest Vase during Wesker Phase",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()",
+          "expert_logic"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 5-3",
+            "x": 462,
+            "y": 287,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 5-3 Emerald Oval - L Hawk Sarcophagus during Wesker Phase",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()",
+          "expert_logic"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 5-3",
+            "x": 653,
+            "y": 287,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 5-3 Topaz Brilliant - Monarch Room Entrance above Bridge",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 5-3",
+            "x": 845,
+            "y": 287,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 5-3 Ruby Brilliant - Embedded on Rock in Cave",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 5-3",
+            "x": 1036,
+            "y": 287,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 5-3 Sapphire Brilliant - L Hawk Sarcophagus during Wesker Phase",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()",
+          "expert_logic"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 5-3",
+            "x": 1227,
+            "y": 287,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 5-3 Emerald Brilliant -  East Balcony Vase during Jill Phase",
+        "access_rules": [
+          "$has_lightweapon()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 5-3",
+            "x": 1418,
+            "y": 287,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 5-3 Sapphire Marquise - Excellas Safe under Desk",
+        "access_rules": [
+          "$has_lightweapon()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 5-3",
+            "x": 80,
+            "y": 494,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 5-3 Power Stone - Reapers",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()",
+          "expert_logic,$has_explosive()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 5-3",
+            "x": 271,
+            "y": 494,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 5-3 Lion Heart - Lickers before Wesker",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()",
+          "expert_logic,$has_explosive()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 5-3",
+            "x": 462,
+            "y": 494,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 5-3 Heart of Africa - Early Wesker Kill",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "expert_logic,$has_explosive()",
+          "expert_logic,$has_rifle()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 5-3",
+            "x": 653,
+            "y": 494,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 5-3 Jewel Bangle - Bigman Majini on Lift",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()",
+          "expert_logic,$has_explosive()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 5-3",
+            "x": 845,
+            "y": 494,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Chapter 6-1",
+    "access_rules": [
+      "chapter_6_1"
+    ],
+    "children": [
+      {
+        "name": "6-1 BSAA_Emblem_Longshot_Across_Boat",
+        "access_rules": [
+          "$has_rifle()",
+          "expert_logic,$has_rifle()"
+        ],
+        "visibility_rules": [
+          "emblemsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 6-1",
+            "x": 80,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "emblemsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "6-1 BSAA_Emblem_Explosives_Container",
+        "access_rules": [
+          "$has_explosive()"
+        ],
+        "visibility_rules": [
+          "emblemsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 6-1",
+            "x": 527,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "emblemsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "6-1 BSAA_Emblem_Shelf",
+        "access_rules": [
+          "crane_keycard"
+        ],
+        "visibility_rules": [
+          "emblemsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 6-1",
+            "x": 973,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "emblemsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Crane Keycard",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 6-1",
+            "x": 1420,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Tanker Keycard A",
+        "access_rules": [
+          "crane_keycard"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 6-1",
+            "x": 80,
+            "y": 636
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Tanker Keycard B",
+        "access_rules": [
+          "crane_keycard"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 6-1",
+            "x": 527,
+            "y": 636
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Completed Chapter 6-1",
+        "access_rules": [
+          "crane_keycard,tanker_keycard_a,tanker_keycard_b,$has_heavyweapon()"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 6-1",
+            "x": 973,
+            "y": 636
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "6-1 Pickup_Jailbreaker",
+        "map_locations": [
+          {
+            "map": "Chapter 6-1",
+            "x": 1420,
+            "y": 636
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 6-1 Dead Brides Necklace - Rocket Launcher Majini",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 6-1",
+            "x": 80,
+            "y": 1192,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 6-1 Jewel Bangle - Bigman Majini",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()",
+          "expert_logic,$has_explosive()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 6-1",
+            "x": 527,
+            "y": 1192,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 6-1 Topaz Oval - Crane Majini from Afar",
+        "access_rules": [
+          "$has_rifle()",
+          "expert_logic,$has_explosive()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 6-1",
+            "x": 973,
+            "y": 1192,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Chapter 6-2",
+    "access_rules": [
+      "chapter_6_2"
+    ],
+    "children": [
+      {
+        "name": "Bridge Keycard",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 6-2",
+            "x": 80,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Completed Chapter 6-2",
+        "access_rules": [
+          "bridge_keycard,$has_lightweapon(),$has_heavyweapon()"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 6-2",
+            "x": 858,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "6-2 Defeat Ship Bridge Uroboros",
+        "map_locations": [
+          {
+            "map": "Chapter 6-2",
+            "x": 80,
+            "y": 750
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 6-2 Chalice Gold - Lower Deck Furthest Locker",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 6-2",
+            "x": 858,
+            "y": 750,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 6-2 Chalice Gold - Upper Deck Meeting Room Locker",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 6-2",
+            "x": 80,
+            "y": 1420,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Chapter 6-3",
+    "access_rules": [
+      "chapter_6_3"
+    ],
+    "children": [
+      {
+        "name": "Hangar Keycard A",
+        "access_rules": [
+          "$has_lightweapon(),$has_heavyweapon()"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 6-3",
+            "x": 80,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hangar Keycard B",
+        "access_rules": [
+          "$has_lightweapon(),$has_heavyweapon()"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 6-3",
+            "x": 527,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Complete All Chapters Goal",
+        "access_rules": [
+          "chapter_1_2,chapter_2_1,chapter_2_2,chapter_2_3,chapter_3_1,chapter_3_2,chapter_3_3,chapter_4_1,chapter_4_2,chapter_5_1,chapter_5_2,chapter_5_3,chapter_6_1,chapter_6_2,chapter_6_3,$has_heavyweapon(),$has_n_lightweapon(2),furnace_key,hangar_keycard_a,hangar_keycard_b,$has_lightweapon(),port_key,guard_s_key,bridge_keycard,beast_slate,shaman_slate,raptor_slate,warrior_slate,sky_emblem,earth_emblem,sea_emblem,crane_keycard"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 6-3",
+            "x": 973,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 6-3 Dead Brides Necklace - Engine Room Rocket Launcher Majini",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 6-3",
+            "x": 1420,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chapter 6-3 Power Stone - Second Bulkhead Reapers",
+        "access_rules": [
+          "$has_lightweapon()",
+          "$has_heavyweapon()",
+          "$has_rifle()",
+          "expert_logic,$has_explosive()"
+        ],
+        "visibility_rules": [
+          "treasuresanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 6-3",
+            "x": 80,
+            "y": 618,
+            "restrict_visibility_rules": [
+              "treasuresanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Kill Wesker in 6-3 Goal",
+        "access_rules": [
+          "hangar_keycard_a,hangar_keycard_b,chapter_6_3,$has_lightweapon()",
+          "hangar_keycard_a,hangar_keycard_b,chapter_6_3,$has_heavyweapon()",
+          "hangar_keycard_a,hangar_keycard_b,chapter_6_3,$has_rifle()"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 6-3",
+            "x": 527,
+            "y": 618
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "All Bosses Goal",
+        "access_rules": [
+          "furnace_key,chapter_1_2,chapter_2_2,chapter_2_3,chapter_3_3,chapter_4_1,chapter_5_1,chapter_5_2,chapter_5_3,chapter_6_2,hangar_keycard_a,hangar_keycard_b,chapter_6_3,$has_lightweapon(),port_key,guard_s_key,bridge_keycard,beast_slate,shaman_slate,raptor_slate,warrior_slate,sky_emblem,earth_emblem,sea_emblem,crane_keycard"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 6-3",
+            "x": 973,
+            "y": 618
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Shop",
+    "children": [
+      {
+        "name": "Purchase First Aid Spray after 1-2",
+        "access_rules": [
+          "chapter_1_2,furnace_key"
+        ],
+        "visibility_rules": [
+          "shopsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 1-1",
+            "x": 80,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "shopsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Purchase Stun Rod after 2-3",
+        "access_rules": [
+          "chapter_2_3"
+        ],
+        "visibility_rules": [
+          "shopsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 1-1",
+            "x": 415,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "shopsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Purchase H&K P8 after 3-1",
+        "access_rules": [
+          "chapter_3_1,beast_slate,shaman_slate,raptor_slate,warrior_slate"
+        ],
+        "visibility_rules": [
+          "shopsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 1-1",
+            "x": 750,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "shopsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Purchase SIG P226 after 5-1",
+        "access_rules": [
+          "chapter_5_1"
+        ],
+        "visibility_rules": [
+          "shopsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 1-1",
+            "x": 1085,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "shopsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Purchase Proximity Bomb atfer 2-2",
+        "access_rules": [
+          "chapter_2_2"
+        ],
+        "visibility_rules": [
+          "shopsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 1-1",
+            "x": 1420,
+            "y": 80,
+            "restrict_visibility_rules": [
+              "shopsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Purchase Melee Vest after 1-2",
+        "access_rules": [
+          "chapter_1_2"
+        ],
+        "visibility_rules": [
+          "shopsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 1-1",
+            "x": 80,
+            "y": 357,
+            "restrict_visibility_rules": [
+              "shopsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Purchase Bulletproof Vest after 4-2",
+        "access_rules": [
+          "chapter_4_2"
+        ],
+        "visibility_rules": [
+          "shopsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 1-1",
+            "x": 415,
+            "y": 357,
+            "restrict_visibility_rules": [
+              "shopsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Purchase M93R",
+        "access_rules": [
+          "beretta_m92f,m92f_firepower_upgrades,m92f_reload_speed_upgrades,m92f_capacity_upgrades,m92f_critical_hit_upgrades"
+        ],
+        "visibility_rules": [
+          "shopsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 1-1",
+            "x": 750,
+            "y": 357,
+            "restrict_visibility_rules": [
+              "shopsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Purchase S&W M500",
+        "access_rules": [
+          "s_w_m29,s_w_m29_firepower_upgrades,s_w_m29_reload_speed_upgrades,s_w_m29_capacity_upgrades,s_w_m29_piercing_upgrades"
+        ],
+        "visibility_rules": [
+          "shopsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 1-1",
+            "x": 1085,
+            "y": 357,
+            "restrict_visibility_rules": [
+              "shopsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Purchase Hydra",
+        "access_rules": [
+          "ithaca_37,ithaca_37_firepower_upgrades,ithaca_37_reload_speed_upgrades,ithaca_37_capacity_upgrades,ithaca_37_critical_hit_upgrades"
+        ],
+        "visibility_rules": [
+          "shopsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 1-1",
+            "x": 1420,
+            "y": 357,
+            "restrict_visibility_rules": [
+              "shopsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Purchase Longbow",
+        "access_rules": [
+          "s75,s75_firepower_upgrades,s75_reload_speed_upgrades,s75_capacity_upgrades"
+        ],
+        "visibility_rules": [
+          "shopsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 1-1",
+            "x": 80,
+            "y": 634,
+            "restrict_visibility_rules": [
+              "shopsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Purchase Minigun",
+        "access_rules": [
+          "vz61,vz61_firepower_upgrades,vz61_reload_speed_upgrades,vz61_capacity_upgrades,vz61_critical_hit_upgrades"
+        ],
+        "visibility_rules": [
+          "shopsanity"
+        ],
+        "map_locations": [
+          {
+            "map": "Chapter 1-1",
+            "x": 415,
+            "y": 634,
+            "restrict_visibility_rules": [
+              "shopsanity"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Check",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  }
+]
