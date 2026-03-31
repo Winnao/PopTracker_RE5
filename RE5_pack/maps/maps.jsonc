@@ -126,8 +126,24 @@
     "location_border_thickness": 2
   },
   // ==========================================================
+  // CHAPTERS OVERVIEW - grid showing all chapters at a glance
+  // Each cell shows the chapter's completion check (and boss check for ch2-3).
+  // Layout: 4 cols x 6 rows, 400x150px per cell, image 1600x900px
+  // Row 0: 1-1(200,75)  1-2(600,75)
+  // Row 1: 2-1(200,225) 2-2(600,225) 2-3(1000,225)
+  // Row 2: 3-1(200,375) 3-2(600,375) 3-3(1000,375)
+  // Row 3: 4-1(200,525) 4-2(600,525)
+  // Row 4: 5-1(200,675) 5-2(600,675) 5-3(1000,675)
+  // Row 5: 6-1(200,825) 6-2(600,825) 6-3/Goal(1000,825)
+  // ==========================================================
+  {
+    "name": "Chapters Overview",
+    "img": "images/maps/Chapters_Overview.png",
+    "location_size": 14,
+    "location_border_thickness": 2
+  },
+  // ==========================================================
   // SHOP TAB - separate tab for all shop purchase checks
-  // Image is a placeholder; replace with a shop screenshot if desired
   // ==========================================================
   {
     "name": "Shop",

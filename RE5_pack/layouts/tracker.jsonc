@@ -1,4 +1,5 @@
 {
+  // Default layout: item panels on the LEFT, map fills the rest on the right
   "tracker_default": {
     "type": "container",
     "background": "#20201f",
@@ -37,6 +38,8 @@
       ]
     }
   },
+  // Horizontal layout: all item panels in a compact TOP BAR, map fills the full height below.
+  // Best for wide/ultrawide monitors where vertical map space is more valuable than horizontal.
   "tracker_horizontal": {
     "type": "container",
     "background": "#20201f",
@@ -46,18 +49,13 @@
       "content": [
         {
           "type": "dock",
-          "dock": "left",
+          "dock": "top",
           "content": [
-            {
-              "type": "group",
-              "header": "Options",
-              "dock": "top",
-              "content": { "type": "layout", "key": "settings_grid" }
-            },
             {
               "type": "array",
               "orientation": "horizontal",
               "content": [
+                { "type": "group", "header": "Options",         "content": { "type": "layout", "key": "settings_grid" } },
                 { "type": "group", "header": "Chapters",        "content": { "type": "layout", "key": "chapters_grid" } },
                 { "type": "group", "header": "Key Items",       "content": { "type": "layout", "key": "key_items_grid" } },
                 { "type": "group", "header": "Weapons",         "content": { "type": "layout", "key": "weapons_grid" } },

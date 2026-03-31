@@ -5,12 +5,19 @@
   "package_uid": "re5_archipelago_manual",
   "author": "Naowin",
   "min_poptracker_version": "0.32.1",
+  "target_poptracker_version": "0.34.0",
   "variants": {
     "standard": {
       "display_name": "Resident Evil 5 (Archipelago)",
       "flags": [
         "ap",
         "apmanual"
+      ]
+    },
+    "itemsonly": {
+      "display_name": "Resident Evil 5 (Items Only)",
+      "flags": [
+        "itemsonly"
       ]
     }
   }
