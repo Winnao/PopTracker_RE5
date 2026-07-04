@@ -468,9 +468,17 @@
   { "name": "S&W M500 Firepower Upgrade", "type": "toggle", "codes": "s_w_m500_firepower_upgrades", "img": "images/items/upgrades/s_w_m500_firepower_upgrades.png" },
   { "name": "S&W M500 Reload Speed Upgrade", "type": "toggle", "codes": "s_w_m500_reload_speed_upgrades", "img": "images/items/upgrades/s_w_m500_reload_speed_upgrades.png" },
   { "name": "S&W M500 Capacity Upgrade", "type": "toggle", "codes": "s_w_m500_capacity_upgrades", "img": "images/items/upgrades/s_w_m500_capacity_upgrades.png" },
-  { "name": "S&W M500 Piercing Upgrade", "type": "toggle", "codes": "s_w_m500_piercing_upgrades", "img": "images/items/upgrades/s_w_m500_piercing_upgrades.png" }
+  { "name": "S&W M500 Piercing Upgrade", "type": "toggle", "codes": "s_w_m500_piercing_upgrades", "img": "images/items/upgrades/s_w_m500_piercing_upgrades.png" },
 
-
+  // =========================
+  // LOGIC-ONLY ITEMS
+  // =========================
+  // Hidden items (not in any layout) tracked via Archipelago so that
+  // explosive-based logic matches the apworld's 'explosive' category.
+  { "name": "Rocket Launcher - Single Use", "type": "toggle", "codes": "rocket_launcher_single_use" },
+  { "name": "Hand Grenade", "type": "toggle", "codes": "hand_grenade" },
+  { "name": "Incendiary Grenade", "type": "toggle", "codes": "incendiary_grenade" },
+  { "name": "Explosive Rounds", "type": "toggle", "codes": "explosive_rounds" }
 
     // =========================
   // INFINITE AMMO (DISABLED)

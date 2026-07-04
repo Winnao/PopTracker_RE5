@@ -1,10 +1,13 @@
 -- Logic helper functions for RE5 PopTracker pack
-
-ENABLE_DEBUG_LOG = true
+-- NOTE: access_rules call these with the "$name" / "$name|arg" syntax (no parentheses).
 
 LIGHT_WEAPONS = {"beretta_m92f","vz61","ak_74","h_k_mp5","sig_556","m93r","h_k_p8"}
 HEAVY_WEAPONS = {"ithaca_37","benelli_m3","jailbreaker","s_w_m29","l_hawk","m40_gl","s_w_m500","hydra","minigun","longbow"}
 RIFLES        = {"s75","svd_dragunov","h_k_psg_1"}
+-- matches the apworld 'explosive' category: M40 GL, Rocket Launcher, Explosive Rounds, Hand Grenade
+EXPLOSIVES    = {"m40_gl","rocket_launcher_single_use","explosive_rounds","hand_grenade"}
+-- matches the apworld 'longshot_precise_weapon' category
+LONGSHOT_PRECISE_WEAPONS = {"beretta_m92f","s_w_m29","l_hawk","s_w_m500"}
 
 function count_weapons(list)
     local count = 0
@@ -40,9 +43,23 @@ function has_n_heavyweapon(n)
     return count_weapons(HEAVY_WEAPONS) >= tonumber(n) and 1 or 0
 end
 
--- Explosive: M40 GL is the only tracked launcher weapon
 function has_explosive()
-    return Tracker:ProviderCountForCode("m40_gl") > 0 and 1 or 0
+    return count_weapons(EXPLOSIVES) > 0 and 1 or 0
+end
+
+function has_longshot_precise()
+    return count_weapons(LONGSHOT_PRECISE_WEAPONS) > 0 and 1 or 0
+end
+
+-- Goal helpers (OR-combinations inside a single AND rule)
+
+function has_furnace_or_rocket()
+    return (Tracker:ProviderCountForCode("furnace_key") > 0
+        or Tracker:ProviderCountForCode("rocket_launcher_single_use") > 0) and 1 or 0
+end
+
+function has_light_or_heavy()
+    return (has_lightweapon() + has_heavyweapon()) > 0 and 1 or 0
 end
 
 -- Optional mode checks
@@ -63,13 +80,13 @@ function expert_logic()
     return Tracker:ProviderCountForCode("expert_logic") > 0 and 1 or 0
 end
 
--- Progressive treasure helper
-
-function has_more_then_n_consumable(n)
-    local count = Tracker:ProviderCountForCode("progressive_treasure")
-    local val = (count > tonumber(n))
-    if ENABLE_DEBUG_LOG then
-        print(string.format("has_more_then_n_consumable: count=%s n=%s val=%s", count, n, tostring(val)))
+-- Progressive treasure helper.
+-- Mirrors the apworld rule: (|@treasure:n| AND Treasuresanity on) OR Treasuresanity off.
+-- When Treasuresanity is off the Progressive Treasures are not in the pool, so the
+-- requirement always holds. Usage in access_rules: "$has_treasure|5" (at least 5).
+function has_treasure(n)
+    if Tracker:ProviderCountForCode("treasuresanity") == 0 then
+        return 1
     end
-    return val and 1 or 0
+    return Tracker:ProviderCountForCode("progressive_treasure") >= tonumber(n) and 1 or 0
 end

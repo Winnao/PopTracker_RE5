@@ -88,7 +88,7 @@
         "item_size": "48, 48",
         "h_alignment": "left",
         "rows": [
-            [ "emblemsanity", "treasuresanity", "shopsanity", "expert_logic" ]
+            [ "emblemsanity", "treasuresanity", "shopsanity", "expert_logic", "infinite_ammo" ]
         ]
     }
 }

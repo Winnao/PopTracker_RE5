@@ -63,13 +63,16 @@ ITEM_MAPPING = {
 	[BASE_ITEM_ID + 43]  = { { "s_w_m29",       "toggle" } },	-- S&W M29
 	[BASE_ITEM_ID + 44]  = { { "l_hawk",        "toggle" } },	-- L Hawk
 	[BASE_ITEM_ID + 45]  = { { "m40_gl",        "toggle" } },	-- M40 GL
-	-- 46: Rocket Launcher - Single Use (not tracked)
+	[BASE_ITEM_ID + 46]  = { { "rocket_launcher_single_use", "toggle" } },	-- Rocket Launcher - Single Use (logic-only, hidden)
 	-- 47-56: Traps (not tracked)
-	-- 57-62: Ammo types (not tracked)
+	-- 57, 59-62: Ammo types (not tracked)
+	[BASE_ITEM_ID + 58]  = { { "explosive_rounds", "toggle" } },	-- Explosive Rounds (logic-only, hidden)
 	[BASE_ITEM_ID + 63]  = { { "m93r",          "toggle" } },	-- M93R
 	[BASE_ITEM_ID + 64]  = { { "s_w_m500",      "toggle" } },	-- S&W M500
 	[BASE_ITEM_ID + 65]  = { { "hydra",         "toggle" } },	-- Hydra
-	-- 66-69: Hand Grenade, Incendiary Grenade, Flash Grenade, First Aid Spray (not tracked)
+	[BASE_ITEM_ID + 66]  = { { "hand_grenade",  "toggle" } },	-- Hand Grenade (logic-only, hidden)
+	[BASE_ITEM_ID + 67]  = { { "incendiary_grenade", "toggle" } },	-- Incendiary Grenade (logic-only, hidden)
+	-- 68-69: Flash Grenade, First Aid Spray (not tracked)
 	[BASE_ITEM_ID + 153] = { { "minigun",       "toggle" } },	-- Minigun
 	[BASE_ITEM_ID + 154] = { { "longbow",       "toggle" } },	-- Longbow
 	[BASE_ITEM_ID + 155] = { { "h_k_p8",        "toggle" } },	-- H&K P8

@@ -99,9 +99,34 @@ function incrementItem(item_code, item_type, multiplier)
 	end
 end
 
+-- maps the yaml option keys sent by the Manual apworld in slot_data
+-- to the tracker's setting toggle codes
+SLOT_DATA_OPTION_MAPPING = {
+	["Emblemsanity_Enabled"] = "emblemsanity",
+	["Treasuresanity_Enabled"] = "treasuresanity",
+	["Shopsanity_Enabled"] = "shopsanity",
+	["Expert_Logic"] = "expert_logic",
+	["Infinite_Ammo_Unlocks_Enabled"] = "infinite_ammo",
+}
+
 -- apply everything needed from slot_data, called from onClear
 function apply_slot_data(slot_data)
-	-- put any code here that slot_data should affect (toggling setting items for example)
+	if not slot_data then
+		return
+	end
+	for key, code in pairs(SLOT_DATA_OPTION_MAPPING) do
+		local value = slot_data[key]
+		if value ~= nil then
+			local obj = Tracker:FindObjectForCode(code)
+			if obj then
+				obj.Active = (value == 1 or value == true)
+			elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+				print(string.format("apply_slot_data: could not find object for code %s", code))
+			end
+		elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+			print(string.format("apply_slot_data: no slot_data value for %s", key))
+		end
+	end
 end
 
 -- called right after an AP slot is connected

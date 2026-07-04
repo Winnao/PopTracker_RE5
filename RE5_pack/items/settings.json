@@ -21,6 +21,13 @@
     "initial_active_state": false
   },
   {
+    "name": "Infinite Ammo Unlocks",
+    "type": "toggle",
+    "codes": "infinite_ammo",
+    "img": "images/items/weapons/minigun.png",
+    "initial_active_state": false
+  },
+  {
     "name": "Expert Logic",
     "type": "toggle",
     "codes": "expert_logic",

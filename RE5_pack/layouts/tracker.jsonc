@@ -38,8 +38,10 @@
       ]
     }
   },
-  // Horizontal layout: all item panels in a compact TOP BAR, map fills the full height below.
-  // Best for wide/ultrawide monitors where vertical map space is more valuable than horizontal.
+  // PopTracker auto-selects the root layout by window aspect ratio:
+  //   width/height > 1 -> "tracker_horizontal", < 1 -> "tracker_vertical", == 1 -> "tracker_default".
+  // We want items-left / map-right in every case, so tracker_horizontal mirrors tracker_default.
+  // (tracker_vertical is intentionally omitted; PopTracker falls back to tracker_default.)
   "tracker_horizontal": {
     "type": "container",
     "background": "#20201f",
@@ -49,13 +51,18 @@
       "content": [
         {
           "type": "dock",
-          "dock": "top",
+          "dock": "left",
           "content": [
+            {
+              "type": "group",
+              "header": "Options",
+              "dock": "top",
+              "content": { "type": "layout", "key": "settings_grid" }
+            },
             {
               "type": "array",
               "orientation": "horizontal",
               "content": [
-                { "type": "group", "header": "Options",         "content": { "type": "layout", "key": "settings_grid" } },
                 { "type": "group", "header": "Chapters",        "content": { "type": "layout", "key": "chapters_grid" } },
                 { "type": "group", "header": "Key Items",       "content": { "type": "layout", "key": "key_items_grid" } },
                 { "type": "group", "header": "Weapons",         "content": { "type": "layout", "key": "weapons_grid" } },
